@@ -1,0 +1,19 @@
+INSERT INTO brand(name) VALUES
+('ADIDAS'),
+('PUMA'),
+('NIKE'),
+('ASICS');
+
+INSERT INTO category(name) VALUES
+('SHIRT'),
+('PANT'),
+('ACCESSORIES');
+
+INSERT INTO product(name,quantity,price,brand_id,category_id) VALUES
+('STRIPED TSHIRT',10,2000,1,1),
+('BLUE WASHED JEANS',20,3000,2,2),
+('SOCKS',200,300,4,3),
+('WINDCHEATER JACKET',200,300,4,2),
+('SHIRT',200,300,4,1),
+('FULL TSHIRT',200,300,4,3),
+('POLO TSHIRT',200,300,4,3);
